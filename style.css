@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  background-color: rgb(190, 190, 250);
+}
+.editor {
+  width: 80%;
+  margin: 60px auto;
+}
+.toolbar {
+  height: 35px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px;
+  background-color: #f0f0f0;
+}
+.content {
+  border: none;
+  outline: none;
+  min-height: 200px;
+  padding: 10px;
+  font-size: 16px;
+  height: 350px;
+  background-color: white;
+}
+button {
+  font-size: 15px;
+  border: none;
+  border-right: 2px solid rgb(190, 190, 190);
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+  font-size: 24px;
+  background-color: grey;
+}
+button:active {
+  font-size: 24px;
+  background-color: grey;
+}
+input {
+  border: 2px solid rgb(190, 190, 190);
+}
+select {
+  border: 2px solid rgb(190, 190, 190);
+}
